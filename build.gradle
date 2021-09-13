@@ -24,6 +24,11 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	// https://mvnrepository.com/artifact/org.reactivestreams/reactive-streams
+	implementation group: 'org.reactivestreams', name: 'reactive-streams', version: '1.0.3'
+	// https://mvnrepository.com/artifact/io.projectreactor/reactor-core
+	implementation group: 'io.projectreactor', name: 'reactor-core', version: '3.4.8'
+
 }
 
 test {
